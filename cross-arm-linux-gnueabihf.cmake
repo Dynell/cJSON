@@ -47,5 +47,5 @@ set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
 #build:
 # mkdir build
 # cd build
-# cmake . -DCMAKE_TOOLCHAIN_FILE=./cross-arm-linux-gnueabihf.cmake -DLWS_WITH_SSL=OFF -DBUILD_SHARED_LIBS=Off --fresh --debug-trycompile
+# cmake . -DCMAKE_TOOLCHAIN_FILE=./cross-arm-linux-gnueabihf.cmake -DLWS_WITH_SSL=OFF -DBUILD_SHARED_LIBS=OFF --fresh --debug-trycompile
 # make
